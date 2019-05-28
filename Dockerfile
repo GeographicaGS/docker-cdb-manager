@@ -1,7 +1,7 @@
 FROM python:2-alpine
 MAINTAINER Victor M. Varela <victor@geographica.gs>
 
-ADD https://github.com/CartoDB/cdb-manager/archive/master.zip .
+ADD https://github.com/GeographicaGS/cdb-manager/archive/master.zip .
 RUN unzip master.zip
 WORKDIR ./cdb-manager-master
 
